@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-21T18:18:40 IST" name="Suite" finished-at="2025-01-21T18:18:45 IST" duration-ms="5068">
+    <groups>
+    </groups>
+    <test started-at="2025-01-21T18:18:40 IST" name="TestClass1" finished-at="2025-01-21T18:18:45 IST" duration-ms="5067">
+      <class name="testng.parallelExecution.TestClass1">
+        <test-method signature="TestClass1_test1()[pri:0, instance:testng.parallelExecution.TestClass1@498d318c]" started-at="2025-01-21T18:18:40 IST" name="TestClass1_test1" finished-at="2025-01-21T18:18:45 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass1_test1 -->
+      </class> <!-- testng.parallelExecution.TestClass1 -->
+    </test> <!-- TestClass1 -->
+    <test started-at="2025-01-21T18:18:40 IST" name="TestClass2 and TestClass3" finished-at="2025-01-21T18:18:45 IST" duration-ms="5068">
+      <class name="testng.parallelExecution.TestClass3">
+        <test-method signature="TestClass3_test3()[pri:0, instance:testng.parallelExecution.TestClass3@10e31a9a]" started-at="2025-01-21T18:18:40 IST" name="TestClass3_test3" finished-at="2025-01-21T18:18:45 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass3_test3 -->
+        <test-method signature="TestClass3_test2()[pri:0, instance:testng.parallelExecution.TestClass3@10e31a9a]" started-at="2025-01-21T18:18:40 IST" name="TestClass3_test2" finished-at="2025-01-21T18:18:45 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass3_test2 -->
+        <test-method signature="TestClass3_test1()[pri:0, instance:testng.parallelExecution.TestClass3@10e31a9a]" started-at="2025-01-21T18:18:40 IST" name="TestClass3_test1" finished-at="2025-01-21T18:18:45 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass3_test1 -->
+      </class> <!-- testng.parallelExecution.TestClass3 -->
+      <class name="testng.parallelExecution.TestClass2">
+        <test-method signature="TestClass2_test1()[pri:0, instance:testng.parallelExecution.TestClass2@3febb011]" started-at="2025-01-21T18:18:40 IST" name="TestClass2_test1" finished-at="2025-01-21T18:18:45 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass2_test1 -->
+        <test-method signature="TestClass2_test2()[pri:0, instance:testng.parallelExecution.TestClass2@3febb011]" started-at="2025-01-21T18:18:40 IST" name="TestClass2_test2" finished-at="2025-01-21T18:18:45 IST" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClass2_test2 -->
+      </class> <!-- testng.parallelExecution.TestClass2 -->
+    </test> <!-- TestClass2 and TestClass3 -->
+  </suite> <!-- Suite -->
+</testng-results>
