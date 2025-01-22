@@ -1,6 +1,6 @@
 package testng.parallelExecution;
-
 import org.testng.annotations.Test;
+
 
 /**
  * TestClass1 contains 1 test case
