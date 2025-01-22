@@ -13,7 +13,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<allure.version>2.25.0</allure.version>
+		<testngFilePath>DefaultTest.xml</testngFilePath>
 	</properties>
 
 	<dependencies>
